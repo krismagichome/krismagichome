@@ -1,0 +1,9 @@
+$colCount:          3;
+$gutterCount:       $colCount + 1;
+$noGutterCol:       100% / $colCount;
+$gutter:            $noGutterCol / 10; 
+$col:               $noGutterCol - $gutter - ($gutter / $colCount);
+$baseline:          1.5rem;
+$doubleColGutter:   (100% / 2) / 10;
+$doubleCol:         (100% / 2) - $doubleColGutter - ($doubleColGutter / 2);
+
